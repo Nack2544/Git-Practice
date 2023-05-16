@@ -12,6 +12,20 @@ git branch -m master main # change bracnh from master to main
 
 -- add -- commit -- pull -- push -- 
 
-git checkout -b sjinaongkan # create checkout branch and switch to that branch 
+
+git add . # to update the recent update on the file 
+git commit -m " " # to commit a new commit 
+git checkout -b sjinaongkan # create checkout branch and switch to that branch name sjinaongkan
 git checkout main # change branch back to main
 
+git branch # to check your current branch
+
+ git remote add origin # to add the local folder to github
+
+ git remote remove origin
+
+ # to move the local files to git hub
+
+ 1: git remote add origin "link from github"
+ 2: git remote -v
+ 3: git push -u origin main
