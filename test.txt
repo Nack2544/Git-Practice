@@ -29,3 +29,5 @@ git branch # to check your current branch
  1: git remote add origin "link from github"
  2: git remote -v
  3: git push -u origin main
+
+ -u option automatically sets that upstream for you, linking your repo to a central one. That way, in the future, Git "knows" where you want to push to and where you want to pull from, so you can use git pull or git push without arguments. in the waiting room
