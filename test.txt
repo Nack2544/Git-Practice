@@ -13,3 +13,5 @@ git branch -m master main # change bracnh from master to main
 -- add -- commit -- pull -- push -- 
 
 git checkout -b sjinaongkan # create checkout branch and switch to that branch 
+git checkout main # change branch back to main
+
