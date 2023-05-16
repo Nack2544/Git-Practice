@@ -6,3 +6,6 @@ tutorials github
 
 
 git checkout -b dev # create a new branch
+git add . 
+git commit - m "asdasda"
+git push -u origin main # to push an update to main branch
